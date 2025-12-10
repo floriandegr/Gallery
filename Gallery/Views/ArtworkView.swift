@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct ArtworkView: View {
-    @State var selectedArtwork : Artwork
+    var selectedArtwork : Artwork
     @Environment(GalleryDataStore.self) private var dataStore
     var body: some View {
         VStack{

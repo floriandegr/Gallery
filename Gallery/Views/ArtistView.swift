@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct ArtistView: View {
-    @State var selectedArtist : Artist
+    var selectedArtist : Artist
     var body: some View {
         VStack{
             Text(selectedArtist.name)
